@@ -1,13 +1,20 @@
 # Churn Analysis With Predictive Model
 
-## Business Context
+## Business Understanding
+
 
 Obtained Data from Kaggle on SyriaTel telecommunications company customer data. 
 ## Data Understanding
 
+
+## Data Preperation
+
+
 ## Model
 
+
 ## Model Evaluation
+
 
 ## Recommendations
 
