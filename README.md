@@ -13,16 +13,18 @@
   - Changes to the business model to retain these customers in the future
 
 
-## Data Understanding
+## Data Understanding and Preperation
 - Obtained Data from Kaggle on customer location, phone usage information and historical churn
+- Imported into a Pandas dataframe to analyse and clean towards modeling
 - Types of inputs are total call minutes, number of calls to customer service, international phone plan etc.
+- Took out meaningless and reduntant data from dataframe
+- Split into a Training data set and Test data set
 
-
-## Data Preperation
-
-
-## Model
-
+## Modeling
+- Iterated through Logistic Regression, Random Forest and XGBoost classification models to find best results
+- Built data pipeline for column transformations, cross validation and hyperparameter tuning
+- Mosted interested in "Recall" classification metric to focus on not missing actual churn customers
+- Our XGBoost model yielded the best results
 
 ## Model Evaluation
 
