@@ -8,7 +8,7 @@
 - SyriaTel telecommunications company has data on historical customer usage and churn
 - Tasked with building a model to predict future churn of customers
 - Insights and recommendations obtained from our predictive model:
-  -  Overal expected churn
+  -  Overall expected churn
   - What types of customers are likely to leave
   - Changes to the business model to retain these customers in the future
 
@@ -47,7 +47,7 @@
    - Recommend to implement phone plan options to accomodate those with higher usage
 - Customer service was another big impact area for churn
     - Recommend to improve customer service experience/ train customer service agents better
-- Area Code 510 - east bay San Francisco was another feature that we noticed had a big impact on churn
+- Area Code 510 (East Bay San Francisco) was another feature that we noticed had a big impact on churn
     - Recommend to offer a specialize service to this region
         - There are potentially a lot of Syrians in this region who have been using Syriatel but have found a better external option
 
