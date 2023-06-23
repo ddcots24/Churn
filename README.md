@@ -19,7 +19,9 @@
 - Types of inputs are total call minutes, number of calls to customer service, international phone plan etc.
 - Took out meaningless and reduntant data from dataframe
 - Split into a Training data set and Test data set
+  
 ![Churn Distribution](https://github.com/ddcots24/Churn/assets/131708046/b143fa3e-9c7b-4281-afda-a20b47d3a820)
+
 ## Modeling
 - Iterated through Logistic Regression, Random Forest and XGBoost classification models to find best results
 - Built data pipeline for column transformations, cross validation and hyperparameter tuning
@@ -33,7 +35,8 @@
     - We want to have a lower false negative rate (predicting that customers arent churning when they actually are) to be able to predict the most amount of true churners
     - Having a higher false positive rate is okay in this case. It means that we are predicting that customers are churning when they actually are staying with the company
     - This might be a slight inconvenience to our staying customers when we reach out to them to see if they are going to churn but it is better to overstimate to keep retention of clients
-  
+    - 
+***Comparing the fit of our models***
 ![ROC](https://github.com/ddcots24/Churn/assets/131708046/74d09daf-f1ce-4dc3-82ec-723a0350156d)
 
 ## Recommendations
