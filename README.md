@@ -14,5 +14,5 @@ Obtained Data from Kaggle on SyriaTel telecommunications company customer data.
 
 
 
-Presentation [Contribution guidelines for this project](/Churn Presentation.pdf)
+Presentation [Contribution guidelines for this project](./Churn Presentation.pdf)
 
