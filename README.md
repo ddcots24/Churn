@@ -35,8 +35,9 @@
     - We want to have a lower false negative rate (predicting that customers arent churning when they actually are) to be able to predict the most amount of true churners
     - Having a higher false positive rate is okay in this case. It means that we are predicting that customers are churning when they actually are staying with the company
     - This might be a slight inconvenience to our staying customers when we reach out to them to see if they are going to churn but it is better to overstimate to keep retention of clients
-    - 
+  
 ***Comparing the fit of our models***
+
 ![ROC](https://github.com/ddcots24/Churn/assets/131708046/74d09daf-f1ce-4dc3-82ec-723a0350156d)
 
 ## Recommendations
