@@ -1,1 +1,11 @@
-# Credit_card_classification
+# Churn Analysis With Predictive Model
+
+## Business Context
+
+## Data Understanding
+
+## Model
+
+## Model Evaluation
+
+## Recommendations
