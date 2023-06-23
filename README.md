@@ -27,10 +27,23 @@
 - Our XGBoost model yielded the best results
 
 ## Model Evaluation
-
+- Our Final model had a recall score of .86 on the 1 class (churn is true)
+- It was important to focus on recall based on our business understanding
+    - We want to have a lower false negative rate (predicting that customers arent churning when they actually are) to be able to predict the most amount of true churners
+    - Having a higher false positive rate is okay in this case. It means that we are predicting that customers are churning when they actually are staying with the company
+    - This might be a slight inconvenience to our staying customers when we reach out to them to see if they are going to churn but it is better to overstimate to keep retention of clients
 
 ## Recommendations
-
+- With our model predictions we will be able to forecast cutsomer base and be able set expectations on upcoming revenue
+- A feature that had great impact on churn rate was the amount of time someone spent on the phone. The amount of time spent on the phone was related to charge
+   - Recommend to implement phone plan options to accomodate those with higher usage
+- Customer service was another big impact area for churn
+    - Recommend to improve customer service experience/ train customer service agents better
+- Area Code 510 - east bay San Francisco was another feature that we noticed had a big impact on churn
+    - Recommend to offer a specialize service to this region
+        - There are potentially a lot of Syrians in this region who have been using Syriatel but have found a better external option
+  
+"C:\Users\somdd\OneDrive\Desktop\Feature importance.png"
 
 
 
