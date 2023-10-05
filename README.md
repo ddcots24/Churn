@@ -25,7 +25,7 @@
 ## Modeling
 - Iterated through Logistic Regression, Random Forest and XGBoost classification models to find best results
 - Built data pipeline for column transformations, cross validation and hyperparameter tuning
-- Mosted interested in "Recall" classification metric to focus on not missing actual churn customers
+- Most interested in "Recall" classification metric to focus on not missing actual churn customers
 - Our XGBoost model yielded the best results
 
 ## Model Evaluation
