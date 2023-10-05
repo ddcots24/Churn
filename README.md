@@ -30,7 +30,7 @@
 
 ## Model Evaluation
 ![Confusion Matrix](https://github.com/ddcots24/Churn/assets/131708046/6c7519f3-4b3c-4fae-af74-f2a5833c40be)
-- Our Final model had a recall score of .86 on the 1 class (churn is true)
+- Our Final model had a recall score of **86%** on the 1 class (churn is true)
 - It was important to focus on recall based on our business understanding
     - We want to have a lower false negative rate (predicting that customers arent churning when they actually are) to be able to predict the most amount of true churners
     - Having a higher false positive rate is okay in this case. It means that we are predicting that customers are churning when they actually are staying with the company
